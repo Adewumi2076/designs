@@ -1,0 +1,135 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+}
+body{
+  background: #D9D3D3;
+  background-image: url("image/bg2.svg");
+  background-position: center;
+  background-size: 300;
+  background-repeat: space;
+}
+#navigation{
+  display :flex;
+  flex-direction:row;
+  justify-content:space-between;
+  padding: 100px 125px;
+  text-decoration: none;
+  }
+     a{
+    text-decoration: none;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #222222;
+  }
+
+#mainphoto {
+    bottom: -30%;
+  }
+  #image{
+    position: absolute;
+    width: 74.31px;
+    height: 23.18px;
+    width: 500px;
+    height: 500px;
+    left: 70%;
+    bottom: -30%;
+  }
+ 
+.main-section{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.text-section{
+  display:flex;
+  flex-direction: column;
+  padding: 100px 125px;
+}
+.line-element{
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items:center;
+}
+h4{
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #222222;
+  margin-bottom: 0px;
+
+}
+#contact{
+  opacity: 0.7;
+}
+h1{
+font-family: Fira Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 60px;
+line-height: 70px;
+letter-spacing: -1px;
+color: #222222;
+margin-bottom: 0px;
+}
+p{
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  color: #222222;
+  opacity: 0.7;
+  margin-bottom: 64px;
+}
+button {
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  width: 160px;
+  height: 50px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  background: #4737FF;
+  color: #FFFFFF;
+}
+.social-icons {
+  display: flex;
+  align-items: center;
+  margin-bottom: 64px;
+  
+}
+.social-icons a{
+  max-resolution: right 50px; 
+  margin: 0 24px;
+
+
+
+}
+
+.go-to a{
+margin: 0 14px;
+
+}
+.go-to a:nth-last-of-type(3){
+  text-align: center;
+  color: #FFFFFF;
+  background: #F96241;
+  font-family: Fira Sans;
+  font-style: normal;
+  letter-spacing: 12px;
+  font-size: 23.5475px;
+
+
+}
